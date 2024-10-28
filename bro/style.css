@@ -1,0 +1,46 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* margin: 5px 10px 5px 10px; */
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    /* background-color: rgb(233, 17, 17); */
+    /*
+    dotted, dashed, solid, double, groove, ridge, inset, outset.
+            სისქე  ტიპი  ფერი                       */
+    /* border: 100px solid skyblue; */
+
+    border-top: 50px solid seagreen;
+    border-right: 50px solid rgb(255, 206, 47);
+    border-bottom: 50px solid rgb(255, 82, 47);
+    border-left: 50px solid yellowgreen;
+
+    /* border-radius: 100px; */
+    /* border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 100px;  */
+    border-radius: 50%;
+
+    background-image: url("./assets/photos/image.png");
+    background-repeat: no-repeat;
+/*               სრულთ ფოტოს ზომა აქვს -- contain
+                    
+*/
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box-1{
+    background-image: url("./assets/photos/image\ copy.png");
+
+}

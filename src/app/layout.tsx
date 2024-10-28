@@ -16,7 +16,7 @@ export default function RootLayout({
           <SidebarProvider  >
             <AppSidebar />
             <SidebarTrigger />
-            <div className="flex flex-col w-full pl-[40px]">
+            <div className="flex flex-col w-full lg:pl-[40px] pl-[0px]">
               <Header />
               {children}
             </div>
